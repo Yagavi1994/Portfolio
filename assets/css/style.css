@@ -24,6 +24,10 @@
     background-color: #525252;
 }
 
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
 /* ----- Special margins/paddings/text ------ */
 
 h1, h2, h3, h4 {
@@ -42,6 +46,24 @@ h1, h2, h3, h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-left: 30px;
 }
 
 /* ----- Heading ------ */
@@ -129,7 +151,6 @@ header {
 
 .menu-item span {
     display: block;
-    /* padding-top: 5px; */
     letter-spacing: 2px;
     font-size: 14px;
     font-weight: 300;
@@ -209,4 +230,8 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+.footer-title {
+    padding-top: 20px;
 }
