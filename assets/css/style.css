@@ -72,6 +72,10 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0px;
@@ -112,4 +116,11 @@ header {
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
+}
+
+/* ----- Hover ------ */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
