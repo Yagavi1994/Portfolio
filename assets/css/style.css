@@ -235,3 +235,17 @@ footer {
 .footer-title {
     padding-top: 20px;
 }
+
+/* ----- Three Reasons ------ */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+    /* margin: 0 40%;
+    padding: 0 15%; */
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+    
+}
