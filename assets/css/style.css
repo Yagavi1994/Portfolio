@@ -66,6 +66,11 @@ h1, h2, h3, h4 {
     margin-left: 30px;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
+
 /* ----- Heading ------ */
 
 header {
@@ -241,11 +246,21 @@ footer {
 .three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
-    /* margin: 0 40%;
-    padding: 0 15%; */
+    margin: 0 20px;
 }
 
 .three-reasons-heading {
     margin-bottom: 15px;
     
+}
+
+.three-reasons {
+
+    padding: 0 30px;
+}
+
+/*---- Personal Info ----  */
+
+.personal-info-item {
+    padding-left: 30px;
 }
