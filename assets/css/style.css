@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/* ----- Default ----- */
+
+html, body {
+    height: 100%;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .content {
+    flex: 1;
+}
+
+.footer {
+    padding: 1rem 0;
+  }
 
 /* ----- Colours ------ */
 
@@ -393,7 +411,7 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
-/* ----------------------------------------Media Queries */
+/* ------- Media Queries -------- */
 
 @media(min-width: 992px) {
     .center-form {
